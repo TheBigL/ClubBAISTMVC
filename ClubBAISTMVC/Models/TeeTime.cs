@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace ClubBAISTMVC.Models
 {
-    public class DailyTeeSheet
+    public class TeeTime
     {
-        public virtual Golfer {get;set;}
+        public DateTime teeTime { get; set; }
+        public int DailyTeeSheet { get; set; }
     }
 }
