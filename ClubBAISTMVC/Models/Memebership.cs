@@ -10,6 +10,7 @@ namespace ClubBAISTMVC.Models
     {
         [Key]
         public int MembershipID { get; set; }
+        [Required]
         public string Description { get; set; }
 
         public virtual ICollection<Golfer> Golfers { get; set; }
