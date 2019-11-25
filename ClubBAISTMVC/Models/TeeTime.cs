@@ -9,5 +9,7 @@ namespace ClubBAISTMVC.Models
     {
         public DateTime teeTime { get; set; }
         public int DailyTeeSheetID { get; set; }
+
+        public virtual DailyTeeSheet DailyTeeSheet { get; set; }
     }
 }

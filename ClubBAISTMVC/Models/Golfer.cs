@@ -31,5 +31,6 @@ namespace ClubBAISTMVC.Models
 
         public virtual Memebership membership { get; set; }
 
+
     }
 }

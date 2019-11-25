@@ -12,6 +12,6 @@ namespace ClubBAISTMVC.Models
         public int MembershipID { get; set; }
         public string Description { get; set; }
 
-        public ICollection<Golfer> Golfers { get; set; }
+        public virtual ICollection<Golfer> Golfers { get; set; }
     }
 }
