@@ -5,9 +5,7 @@ using System.Threading.Tasks;
 
 namespace ClubBAISTMVC.Models
 {
-    public class TeeTime
+    public class DailyTeeSheet
     {
-        public DateTime teeTime { get; set; }
-        public int DailyTeeSheetID { get; set; }
     }
 }
